@@ -1,8 +1,8 @@
 # portfolio
-My pesonal portfolio to showcase my skills and projects using react! 
+A pesonal portfolio to showcase my skills and projects using react! 
 
 ## Description
-
+My portfolio is a single page website using reusable and accesible code though ReactJS. Additionally, using the React-pdf api, my resume can be viewed and downloaded with ease. This portfolio was intended to make my showcased work easy to access, and for the user to survey my skills without difficulty. If you have any questions, or would like to give suggestions please use the contact form on my live site!
 
 ## Table of Contents
 
