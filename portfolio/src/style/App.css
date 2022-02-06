@@ -1,0 +1,72 @@
+body {
+    background-color: #f9f6f5;
+    font-family: 'Abel', sans-serif;
+    color: #262220;
+  }
+
+#logo,
+.section-headers,
+#name-introduction,
+#logo p {
+  font-family: 'Viaoda Libre', cursive;
+  color: #a15c38;
+}
+
+.link-button {
+  margin: 3px;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #f9f6f5;
+  text-decoration: none;
+  background-color: #000;
+}
+
+.link-button:hover {
+  color: #c3a6a0;
+  transition: 0.5s;
+}
+
+/* ------------------ responsive css --------------- */
+
+@media screen and (max-width: 768px) {
+  *,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 102%;
+  }
+
+  .section-headers,
+  #name-introduction {
+    font-size: 155%;
+  }
+
+  .row {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #nav-items a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  *,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 110%;
+  }
+
+  .section-headers,
+  #name-introduction {
+    font-size: 160%;
+  }
+}
