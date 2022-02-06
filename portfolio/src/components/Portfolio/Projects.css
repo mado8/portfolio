@@ -1,0 +1,115 @@
+#portfolio {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  min-height: 800px;
+}
+
+#project-section {
+  box-sizing: border-box;
+}
+
+.project:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.small-project {
+  width: 25%;
+}
+
+.large-project {
+  width: 50%;
+}
+
+.project {
+  display: inline-flex;
+  height: 250px;
+  margin: 20px;
+  background-color: #e8d3c7;
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 3000px #a0908987 inset;
+}
+
+#image-1 {
+  background-image: url('../../media/images/employee-tracker.png');
+}
+
+#image-2 {
+  background-image: url('../../media/images/dirt-app.png');
+}
+
+#image-3 {
+  background-image: url('../../media/images/management-system.png');
+}
+
+#image-4 {
+  background-image: url('../../media/images/ecommerce-backend.png');
+}
+
+#image-5 {
+  background-image: url('../../media/images/game-go-app.png');
+}
+
+#image-6 {
+  background-image: url('../../media/images/planner-app.png');
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #a15c38;
+  opacity: 85%;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.text a{
+  font-size: .6em;
+}
+
+/* ------------------ responsive css --------------- */
+
+@media screen and (max-width: 768px) {
+  .small-project,
+  .large-project {
+    width: 80%;
+  }
+
+  .project {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    height: 400px;
+  }
+}
