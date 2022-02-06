@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fbf60e49.css",
+    "main.js": "/portfolio/static/js/main.8311cbcc.js",
+    "static/media/Profile.JPG": "/portfolio/static/media/Profile.1410b73d742817b8f91a.JPG",
+    "static/media/dirt-app.png": "/portfolio/static/media/dirt-app.33a4fccc94f7e7049051.png",
+    "static/media/game-go-app.png": "/portfolio/static/media/game-go-app.516ece3686815ba54407.png",
+    "static/media/management-system.png": "/portfolio/static/media/management-system.de9975ae5cb4f5c36565.png",
+    "static/media/ecommerce-backend.png": "/portfolio/static/media/ecommerce-backend.7bf8177f4034d899322f.png",
+    "static/media/planner-app.png": "/portfolio/static/media/planner-app.9d55143c5ae35736cc47.png",
+    "static/media/employee-tracker.png": "/portfolio/static/media/employee-tracker.ebf68ad24efa60862ea8.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.c784fc4f1719c0dd2194.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.fbf60e49.css.map": "/portfolio/static/css/main.fbf60e49.css.map",
+    "main.8311cbcc.js.map": "/portfolio/static/js/main.8311cbcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbf60e49.css",
+    "static/js/main.8311cbcc.js"
+  ]
+}
