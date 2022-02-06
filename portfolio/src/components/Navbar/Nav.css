@@ -1,0 +1,21 @@
+#nav-container {
+    min-height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+  }
+  
+  #logo p {
+    font-size: 1.4em;
+  }
+  
+  #nav-items a {
+    color: black;
+  }
+  
+  #nav-items a:hover {
+    color: #c3a6a0;
+    transition: 0.4s;
+  }
