@@ -5,7 +5,7 @@ function OpenNew(props) {
   return (
     <div>
       {props.buttonItems.map((button) => (
-        <div className=" button-inline" key={button.href}>
+        <div className={button.name + " button-inline"} key={button.href}>
           <a
             className={ button.name + ' link-button'}
             href={button.href}
@@ -24,7 +24,7 @@ function OpenSame(props) {
   return (
     <div>
       {props.buttonItems.map((button) => (
-        <div className="button-inline" key={button.href}>
+        <div className={button.name + " button-inline"} key={button.href}>
           <a
             className='link-button'
             href={button.href}
