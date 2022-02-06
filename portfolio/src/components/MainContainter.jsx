@@ -4,6 +4,9 @@ import Intro from './Introduction/Intro'
 import About from './About/About'
 import Skills from './Skills/Skills'
 import Projects from './Portfolio/Projects'
+import Contact from './Contact/Contact'
+import Resume from './Resume/Resume'
+import Footer from './Footer/Footer'
 
 const navItems = [
   {
@@ -141,12 +144,20 @@ const MainContainer = () => {
         <div>
           <Navbar navItems={navItems} handlePage={handlePage} />
         </div>
+        {page ? (
+          <Resume />
+        ) : (
           <div>
             <Intro />
             <About />
             <Skills />
             <Projects projectList={projectList} />
+            <Contact />
           </div>
+        )}
+        <div>
+          <Footer />
+        </div>
       </div>
     </div>
   )
