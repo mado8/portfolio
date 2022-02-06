@@ -1,7 +1,8 @@
 # portfolio
+My pesonal portfolio to showcase my skills and projects using react! 
 
 ## Description
-My pesonal portfolio to showcase my skills and projects using react! 
+
 
 ## Table of Contents
 
